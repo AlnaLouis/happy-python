@@ -1,0 +1,64 @@
+from data import dat
+import os
+from data import log, vs
+print(log)
+import random
+score=0
+#choosing the A and B parties
+def firs():
+  return random.choice(dat)
+  
+#Assigning the celebrities to the variables
+first  = firs()
+
+
+#Function to compare the search counta
+def compare(option, first , second):
+  global score
+  if first['search_count']>second['search_count']:
+    if option == 'a' :
+      score +=1
+      print(f"You are right!! Current score :{score} \n")
+      return True, first
+  elif (first['search_count']<second['search_count']):
+    if (option == 'b'):
+      score +=1
+      print(f"You are right!! Current score :{score}\n")
+      return True, second
+
+  
+  print(f"Wrong choice ..... current score :{score} \n")
+  return False,first
+  
+  
+
+while True:
+
+  print(f"Compare  A : {first['name']} a {first['description'] }, from {first['country']} has search count {first['search_count']}" )
+  print(vs)
+  second  =  random.choice(dat)
+  print(f"Compare  B : {second['name']} a {second['description'] }, from {second['country']} has search count {second['search_count']}" )
+  option = input("Who has more followers ? Type 'A'or 'B': \n").lower()
+  correct , first = compare(option, first, second)
+  os.system('clear')
+  if not correct :
+
+    break
+
+print(f"Game over! Your final score is: {score}")
+
+
+
+    
+
+  
+  
+
+
+
+  
+
+
+
+  
+
