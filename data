@@ -1,0 +1,78 @@
+dat= [
+  {
+      "name": "Elon Musk",
+      "description": "CEO of SpaceX and Tesla, known for his work in space exploration, electric vehicles, and renewable energy.",
+      "country": "USA",
+      "search_count": 9500000
+  },
+  {
+      "name": "Greta Thunberg",
+      "description": "Swedish environmental activist known for her efforts to combat climate change.",
+      "country": "Sweden",
+      "search_count": 8000000
+  },
+  {
+      "name": "Cristiano Ronaldo",
+      "description": "Portuguese professional footballer, one of the greatest soccer players of all time.",
+      "country": "Portugal",
+      "search_count": 9200000
+  },
+  {
+      "name": "Taylor Swift",
+      "description": "American singer-songwriter known for her narrative songwriting and hit songs.",
+      "country": "USA",
+      "search_count": 8700000
+  },
+  {
+      "name": "Malala Yousafzai",
+      "description": "Pakistani activist for female education and the youngest Nobel Prize laureate.",
+      "country": "Pakistan",
+      "search_count": 7200000
+  },
+  {
+      "name": "Lionel Messi",
+      "description": "Argentinian professional footballer, widely regarded as one of the best soccer players in history.",
+      "country": "Argentina",
+      "search_count": 7800000
+  },
+  {
+      "name": "Emma Watson",
+      "description": "British actress and activist known for her roles in the Harry Potter series and her advocacy for women's rights.",
+      "country": "UK",
+      "search_count": 6700000
+  },
+  {
+      "name": "Billie Eilish",
+      "description": "American singer-songwriter known for her distinctive voice and hit songs.",
+      "country": "USA",
+      "search_count": 6900000
+  },
+  {
+      "name": "Narendra Modi",
+      "description": "Prime Minister of India, known for his leadership and economic reforms.",
+      "country": "India",
+      "search_count": 8500000
+  },
+  {
+      "name": "Ariana Grande",
+      "description": "American singer and actress known for her powerful vocals and hit songs.",
+      "country": "USA",
+      "search_count": 6300000
+  }
+]
+
+log="""
+   __   _      __             __                  
+  / /  (_)__ _/ /  ___ ____  / /__ _    _____ ____
+ / _ \/ / _ `/ _ \/ -_) __/ / / _ \ |/|/ / -_) __/
+/_//_/_/\_, /_//_/\__/_/   /_/\___/__,__/\__/_/   
+       /___/                                      
+"""
+
+vs="""
+         
+ _  _____
+| |/ (_-<
+|___/___/
+         
+"""
